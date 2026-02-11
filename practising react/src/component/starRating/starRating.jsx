@@ -1,12 +1,12 @@
 import { useState } from "react";
 
-export default function StarRating() {
+export default function StarRating({numOfStar=5}) {
   const [rating, setRating] = useState(0);
   const [hover, setHover] = useState(0);
   return (
     <>
       <div style={{textAlign: "center"}}>
-        {Array(5).fill("*").map((star, index) => {
+        {Array(numOfStar).fill("*").map((star, index) => {
           index += 1;
           return (
             <span
