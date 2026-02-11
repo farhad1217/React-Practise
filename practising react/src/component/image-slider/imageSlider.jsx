@@ -65,6 +65,7 @@ export default function ImageSlider({ url, limit }) {
                   padding: "10px",
                   borderRadius: "30px",
                   marginRight: "10px",
+                  background: index === currentImage? "white":"grey"
                 }}
               ></button>
             ))}
