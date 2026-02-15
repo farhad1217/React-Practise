@@ -4,6 +4,7 @@ import StarRating from "./component/starRating/starRating"
 import ImageSlider from "./component/image-slider/imageSlider"
 import LoadMoreData from "./component/load_more_data/loadMoreData"
 import TreeMenu from "./component/tree_menu/treeMenu"
+import ToggleTheme from "./component/toggle_theme/toggleTheme"
 
 function App() {
 
@@ -16,9 +17,12 @@ function App() {
       <StarRating numOfStar={5}/>
       <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} />
       <ImageSlider url={"https://picsum.photos/v2/list?page=1&limit="} limit = {10} />
-      <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} /> */}
-      {/* <LoadMoreData /> */}
+      <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} /> 
+      <LoadMoreData />
+      <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} />
       <TreeMenu />
+      <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} /> */}
+      <ToggleTheme />
       <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} />
     </>
   )
