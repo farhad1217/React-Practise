@@ -3,6 +3,7 @@ import RandomColor from "./component/colorGenerator/index"
 import StarRating from "./component/starRating/starRating"
 import ImageSlider from "./component/image-slider/imageSlider"
 import LoadMoreData from "./component/load_more_data/loadMoreData"
+import TreeMenu from "./component/tree_menu/treeMenu"
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
       <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} />
       <ImageSlider url={"https://picsum.photos/v2/list?page=1&limit="} limit = {10} />
       <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} /> */}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
+      <TreeMenu />
       <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} />
     </>
   )
