@@ -6,9 +6,8 @@ import ScrollIndicator from "./component/scroll_indicator/scrollIndicator"
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
   <>
-    <ScrollIndicator />
+    {/* <ScrollIndicator /> */}
     <App />
   </>
   // </StrictMode>,
-  
 )

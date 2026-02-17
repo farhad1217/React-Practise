@@ -5,6 +5,7 @@ import ImageSlider from "./component/image-slider/imageSlider"
 import LoadMoreData from "./component/load_more_data/loadMoreData"
 import TreeMenu from "./component/tree_menu/treeMenu"
 import ToggleTheme from "./component/toggle_theme/toggleTheme"
+import PopUP from "./component/pop_up_model/popUpModel"
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
       <TreeMenu />
       <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} />
       <ToggleTheme />
+      <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} />
+      <PopUP />
       <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} />
     </>
   )
