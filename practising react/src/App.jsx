@@ -7,6 +7,7 @@ import TreeMenu from "./component/tree_menu/treeMenu"
 import ToggleTheme from "./component/toggle_theme/toggleTheme"
 import PopUP from "./component/pop_up_model/popUpModel"
 import TabList from "./component/tab/tabList"
+import GithubUser from "./component/fetch_github_user/githubUser"
 
 
 function App() {
@@ -28,8 +29,10 @@ function App() {
       <ToggleTheme />
       <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} />
       <PopUP />
-      <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} /> */}
+      <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} />
       <TabList />
+      <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} /> */}
+      <GithubUser />
       <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} />
     </>
   )
