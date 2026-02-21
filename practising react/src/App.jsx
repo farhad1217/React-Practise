@@ -8,6 +8,7 @@ import ToggleTheme from "./component/toggle_theme/toggleTheme"
 import PopUP from "./component/pop_up_model/popUpModel"
 import TabList from "./component/tab/tabList"
 import GithubUser from "./component/fetch_github_user/githubUser"
+import AutoCompleteSearch from "./component/auto_complete_search/autoCompleteSearch"
 
 
 function App() {
@@ -31,8 +32,10 @@ function App() {
       <PopUP />
       <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} />
       <TabList />
-      <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} /> */}
+      <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} />
       <GithubUser />
+      <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} /> */}
+      <AutoCompleteSearch />
       <div style={{ border: '2px solid black', width: '100%', marginTop:"20px", marginBottom: "20px" }} />
     </>
   )
